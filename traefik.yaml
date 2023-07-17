@@ -1,0 +1,9 @@
+---
+providers:
+  file:
+    filename: /etc/traefik/routing.yaml
+entrypoints:
+  app:
+    address: ":8888"
+log:
+  level: DEBUG

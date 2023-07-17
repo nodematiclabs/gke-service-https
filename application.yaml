@@ -1,0 +1,66 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+      - name: traefik-tls
+        image: traefik:v2.10.3
+        ports:
+        - containerPort: 8888
+        env:
+        - name: HOSTNAME
+          value: nginx.example.com
+        volumeMounts:
+        - name: tls
+          mountPath: "/etc/tls/tls.crt"
+          subPath: "tls.crt"
+        - name: tls
+          mountPath: "/etc/tls/tls.key"
+          subPath: "tls.key"
+        - name: traefik-config
+          mountPath: "/etc/traefik/traefik.yaml"
+          subPath: traefik.yaml
+        - name: traefik-routing
+          mountPath: "/etc/traefik/routing.yaml"
+          subPath: routing.yaml
+      volumes:
+      - name: tls
+        secret:
+          defaultMode: 0777
+          secretName: "nginx-example-com"
+      - name: traefik-config
+        configMap:
+          name: traefik-config
+      - name: traefik-routing
+        configMap:
+          name: traefik-routing
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx
+  ports:
+  - name: http
+    port: 443
+    targetPort: 8888

@@ -1,0 +1,18 @@
+---
+http:
+  routers:
+    app:
+      service: app
+      rule: Host(`nginx.example.com`)
+      tls:
+        domains:
+        - main: "nginx.example.com"
+  services:
+    app:
+      loadBalancer:
+        servers:
+        - url: "http://localhost:80/"
+tls:
+  certificates:
+  - certFile: /etc/tls/tls.crt
+    keyFile: /etc/tls/tls.key

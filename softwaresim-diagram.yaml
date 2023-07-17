@@ -1,0 +1,670 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 606
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse
+      id: collapse
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 936.6979370117188
+  viewPortHeight: 606
+  currentZoom: 1.44
+  horizontalOffset: 319
+  verticalOffset: 36.36
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight ConnectorkTcKM
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 349
+      y: 277
+    targetPoint:
+      x: 349
+      y: 333
+    sourceID: Servicegnv7Z
+    targetID: DeploymentnxSgN
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Straight ConnectorMGObq
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 349
+      y: 121
+    targetPoint:
+      x: 349
+      y: 177
+    sourceID: Usersy05Ot
+    targetID: Servicegnv7Z
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectoryOg2k
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 189
+      y: 228
+    targetPoint:
+      x: 119
+      y: 228
+    sourceID: Logical Grouplt81A
+    targetID: Ingressq1Own
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight ConnectorbTkyZ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 555
+      y: 325.13
+    targetPoint:
+      x: 499
+      y: 340.87
+    sourceID: Cert ManagernD9g0
+    targetID: DeploymentnxSgN
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);"></div><div
+        class="c-text"><div class="c-title">Service</div><div
+        class="c-short-description">Discovering and load balancing access to
+        application instances running on clustered nodes</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Servicegnv7Z
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Service
+        shortDescription: Discovering and load balancing access to application instances
+          running on clustered nodes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Service
+      category: 5
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 300
+    height: 100
+    offsetX: 349
+    offsetY: 227
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorMGObq
+    outEdges:
+      - Straight ConnectorkTcKM
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Deployment</div><div
+        class="c-short-description">Automating the deployment, scaling, and
+        management of containerized applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: DeploymentnxSgN
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+        shortDescription: Automating the deployment, scaling, and management of
+          containerized applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: Deployment
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 5
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 300
+    height: 100
+    offsetX: 349
+    offsetY: 383
+    zIndex: 2
+    inEdges:
+      - Straight ConnectorkTcKM
+      - Dashed Straight ConnectorbTkyZ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);
+        border-radius: 10px"></div></div></div>'
+    id: Usersy05Ot
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Users
+        shortDescription: Users wanting to access our web application over HTTPS
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Users
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Users
+      editableName: Users
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Users
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      color: "#616161"
+      controlText: Users
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 349
+    offsetY: 71
+    zIndex: 5
+    outEdges:
+      - Straight ConnectorMGObq
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_Black_87_dygsxc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_qydvcm.png);
+        border-radius: 10px"></div></div></div>'
+    id: Ingressq1Own
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Ingress
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Ingress
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Ingress
+      editableName: Ingress
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Ingress
+      category: 5
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_qydvcm.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing__044448_tirwdd.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_Black_87_dygsxc.png
+      color: "#416bdd"
+      controlText: Ingress
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 69
+    offsetY: 227.99999999999994
+    zIndex: 4
+    inEdges:
+      - Dashed Straight ConnectoryOg2k
+  - shape:
+      type: Basic
+      cornerRadius: 10
+    id: Logical Grouplt81A
+    width: 320
+    height: 434.00000000000006
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 349
+    offsetY: 228
+    style:
+      fill: none
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+      strokeWidth: 2
+    annotations:
+      - id: hV59B
+        content: HTTPS Web Application Networking
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fill: white
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      size: sm
+    zIndex: 0
+    outEdges:
+      - Dashed Straight ConnectoryOg2k
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #326CE5;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/Cert-Manager_Black_87_rstfdr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/Cert-Manager_qz47k4.png);"></div><div
+        class="c-text"><div class="c-title">Cert Manager</div><div
+        class="c-short-description">Automating the management and issuance of
+        TLS certificates</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Cert
+        Manager</div></div></div></div></div>'
+    id: Cert ManagernD9g0
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cert Manager
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cert Manager
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cert Manager
+      editableName: Cert Manager
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Certificate Manager
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: certificate
+          serviceTime:
+            exp:
+              lambda: AverageGenerationTime
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Certificate Manager
+          AverageGenerationTime: 1
+      name: Cert Manager
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/Cert-Manager_qz47k4.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/Cert-Manager__0484848_fbtln6.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/Cert-Manager_Black_87_rstfdr.png
+      color: "#326CE5"
+      controlText: Cert Manager
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 705
+    offsetY: 283
+    zIndex: 8
+    outEdges:
+      - Dashed Straight ConnectorbTkyZ
+selectedItems:
+  width: 0
+  height: 0
